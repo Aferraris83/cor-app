@@ -1,5 +1,7 @@
 import { Table } from 'antd'
 
+import styles from './styles.module.css'
+
 export const CustomTable = ({ rows, columns }) => {
 
     const tableProps = {
@@ -9,7 +11,7 @@ export const CustomTable = ({ rows, columns }) => {
     }
 
     return (
-        <div style={{margin: '3em 0'}}>
+        <div className={styles.table}>
             <Table
                 {...tableProps}
                 columns={columns}
