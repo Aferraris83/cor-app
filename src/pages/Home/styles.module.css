@@ -1,0 +1,12 @@
+.home {
+    padding: 3em 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 769px) {
+    .home {
+        padding: 3em 1em;
+    }
+}
